@@ -17,9 +17,9 @@
 
     .subt.mb-4(data-aos="fade-right")
       img(src='@/assets/curso/temas/t1/subt.svg', alt='')
-      h3.mb-0.ps-3.p-md-3.ps-lg-4.pe-lg-5 Definición y fundamentación de la seguridad en bases de datos relacionales de escritorio
+      h3.mb-0.ps-3.p-md-2.ps-lg-4.pe-lg-5 Definición y fundamentación de la seguridad en bases de datos relacionales de escritorio
 
-    .row.justify-content-center.align-items-center.mb-4
+    .row.justify-content-center.align-items-center.mb-2.mb-md-4
       .col-lg-7(data-aos="fade-right")
         .row.justify-content-center.align-items-center.mb-4
           .col-lg-auto.col-md-2.col-3
@@ -60,7 +60,7 @@
 
     .subt.mb-4(data-aos="fade-right")
       img(src='@/assets/curso/temas/t1/subt.svg', alt='')
-      h3.mb-0.ps-3.p-md-3.ps-lg-4.pe-lg-5 Aplicar aspectos de seguridad y accesibilidad de los datos
+      h3.mb-0.ps-3.p-md-2.ps-lg-4.pe-lg-5 Aplicar aspectos de seguridad y accesibilidad de los datos
 
     p.mb-5 La transición de la teoría a la práctica requiere que el administrador ejecute un procedimiento técnico escalonado. Aplicar la seguridad en Microsoft Access no es un evento aislado, sino una metodología compuesta por barreras sucesivas. A continuación, se detalla el proceso estructurado que debe dominar el estudiante:
 

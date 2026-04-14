@@ -19,13 +19,13 @@
 
     .subt.mb-4(data-aos="fade-right")
       img(src='@/assets/curso/temas/t1/subt.svg', alt='')
-      h3.mb-0.ps-3.p-md-3.ps-lg-4.pe-lg-5 Definición y fundamentación de los niveles de acceso (control basado en roles)
+      h3.mb-0.ps-3.p-md-2.ps-lg-4.pe-lg-5 Definición y fundamentación de los niveles de acceso (control basado en roles)
 
-    .row.justify-content-center.align-items-center.mb-4
+    .row.justify-content-center.mb-2.mb-md-4
       .col-lg-5.col-md-10.mb-3.mb-lg-0(data-aos="fade-right")
         img(src='@/assets/curso/temas/t3/2.png', alt='')
       .col-lg-7(data-aos="fade-left")
-        .row.justify-content-center.align-items-center.mb-4
+        .row.justify-content-center.align-items-center.mb-3.mb-md-4
           .col-lg-auto.d-none.d-lg-block
             img(src='@/assets/curso/temas/t3/3.svg', alt='')
           .col-lg-10
@@ -48,7 +48,7 @@
 
     .subt.mb-4(data-aos="fade-right")
       img(src='@/assets/curso/temas/t1/subt.svg', alt='')
-      h3.mb-0.ps-3.p-md-3.ps-lg-4.pe-lg-5 Ejemplo aplicado a un contexto educativo
+      h3.mb-0.ps-3.p-md-2.ps-lg-4.pe-lg-5 Ejemplo aplicado a un contexto educativo
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7(data-aos="fade-right")

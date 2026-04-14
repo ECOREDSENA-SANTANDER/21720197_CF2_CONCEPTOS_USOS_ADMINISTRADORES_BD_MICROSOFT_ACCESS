@@ -111,28 +111,11 @@ figcaption
   background-color: #EFEBEB
 .bg8
   background-color: #DED3F7  
-/*.bgc-1
-  background-image: url('../assets/curso/temas/t1/bg.png')
-  background-position: center
-  background-size: cover
-  background-repeat: no-repeat
-  margin-inline: -3.4rem
-  @media screen and (max-width: 992px)
-    margin-inline: -3rem  
-    background-size: cover 
-  @media screen and (max-width: 767px)
-    margin-inline: -1.4rem  
-    background-size: cover */
 .bgi-1
   background-image: url('../assets/curso/temas/t1/bg.png')
   background-position: center
   background-size: cover
   background-repeat: no-repeat
-/* .bgi-2
-  background-image: url('../assets/curso/temas/t2/bg.png')
-  background-position: center
-  background-size: cover
-  background-repeat: no-repeat */
 
 
 .w-80x
@@ -158,11 +141,16 @@ figcaption
     background-color: #680713
     border-radius: 100px
     left: 20px
-    bottom: 7px
+    bottom: 0px
   @media (max-width: $bp-max-xs)
+    img 
+      width: 60px
+    h3
+      padding: 5px 0px
     &::before
-      bottom: -2px
-      height: 95%
+      bottom: 0px
+      height: 100%
+      width: 100%
 .subt2
   display: flex
   align-items: center
@@ -182,7 +170,12 @@ figcaption
     border-radius: 100px
     left: 0px
     bottom: 0px
-  
+.banner-principal .tarjeta
+  @media (max-width: $bp-max-sm)
+    background-image: url('../assets/curso/portada/fondo_principal_tablet.png') !important
+  @media (max-width: $bp-max-xs)
+    background-image: url('../assets/curso/portada/fondo_principal_mob.png') !important
+
 
 .cajon.color-secundario
   background-color: #EFEBEB

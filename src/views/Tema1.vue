@@ -17,9 +17,9 @@
 
     .subt.mb-4(data-aos="fade-right")
       img(src='@/assets/curso/temas/t1/subt.svg', alt='')
-      h3.mb-0.ps-3.p-md-3.ps-lg-4.pe-lg-5 Definición y fundamentación del mantenimiento en Access
+      h3.mb-0.ps-3.p-md-2.ps-lg-4.pe-lg-5 Definición y fundamentación del mantenimiento en Access
 
-    .row.justify-content-center.align-items-center.mb-4
+    .row.justify-content-center.mb-2.mb-md-4
       .col-lg-5.col-md-10.mb-3.mb-lg-0(data-aos="fade-right")
         img(src='@/assets/curso/temas/t1/2.png', alt='')
       .col-lg-7(data-aos="fade-left")
@@ -43,9 +43,9 @@
       .col-lg-8(data-aos="fade-right")
         p Para aterrizar este concepto, imagínese una base de datos de Access diseñada para gestionar la matrícula, calificaciones y asistencia de un centro de formación técnica. Al inicio del año lectivo, el archivo pesa 15 Megabytes (MB) y funciona con fluidez. Sin embargo, a medida que los instructores suben calificaciones diarias, corrigen errores, eliminan registros duplicados de aprendices y actualizan horarios, la base de datos comienza a registrar lentitud al abrir los reportes finales. Para el tercer trimestre, el archivo pesa 150 MB y muestra errores ocasionales de lectura.
         .row.justify-content-center.align-items-center.mb-4
-          .col-lg-auto.col-md-2.col-3
+          .col-lg-auto.col-md-2.d-none.d-md-block
             img(src='@/assets/curso/temas/t1/4.svg', alt='')
-          .col-lg-10.col-md-10.col-9
+          .col-lg-10.col-md-10
             p.mb-0 En este escenario, el administrador (el aprendiz en formación) debe identificar que el problema no radica en el equipo de cómputo ni en la red, sino en la fragmentación interna de Access. Al ejecutar un mantenimiento preventivo, el administrador reestructura las tablas, logrando que el archivo vuelva a pesar 18 MB y recuperando la velocidad de procesamiento al generar los boletines de calificaciones. Este ejemplo evidencia cómo una acción de mantenimiento técnico impacta directamente en la eficiencia administrativa de toda una institución educativa.
       .col-lg-4.d-none.d-lg-block(data-aos="fade-left")
         img(src='@/assets/curso/temas/t1/5.png', alt='')
@@ -53,7 +53,7 @@
 
     .subt.mb-4(data-aos="fade-right")
       img(src='@/assets/curso/temas/t1/subt.svg', alt='')
-      h3.mb-0.ps-3.p-md-3.ps-lg-4.pe-lg-5 Ejecutar mantenimientos y ajustes de bases de datos
+      h3.mb-0.ps-3.p-md-2.ps-lg-4.pe-lg-5 Ejecutar mantenimientos y ajustes de bases de datos
 
     p.mb-4 La comprensión conceptual debe materializarse en la ejecución procedimental. El proceso de ejecutar mantenimientos en Microsoft Access obedece a un protocolo riguroso que el administrador debe interiorizar y aplicar metodológicamente. No se trata simplemente de presionar un botón, sino de seguir un ciclo de aseguramiento de la información.
 

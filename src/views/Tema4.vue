@@ -12,7 +12,7 @@
 
     .subt.mb-4(data-aos="fade-right")
       img(src='@/assets/curso/temas/t1/subt.svg', alt='')
-      h3.mb-0.ps-3.p-md-3.ps-lg-4.pe-lg-5 Creación de la estructura de usuarios y roles (tablas maestras)
+      h3.mb-0.ps-3.p-md-2.ps-lg-4.pe-lg-5 Creación de la estructura de usuarios y roles (tablas maestras)
 
     .row.justify-content-center.align-items-center.mb-4      
       .col-lg-7(data-aos="fade-right")
@@ -36,9 +36,9 @@
 
     .subt.mb-4(data-aos="fade-right")
       img(src='@/assets/curso/temas/t1/subt.svg', alt='')
-      h3.mb-0.ps-3.p-md-3.ps-lg-4.pe-lg-5 Diseño del formulario de autenticación (#[em Login])
+      h3.mb-0.ps-3.p-md-2.ps-lg-4.pe-lg-5 Diseño del formulario de autenticación (#[em Login])
 
-    .row.justify-content-center.align-items-center.mb-4
+    .row.justify-content-center.mb-4
       .col-lg-5.col-md-10.mb-3.mb-lg-0(data-aos="fade-right")
         img(src='@/assets/curso/temas/t4/4.png', alt='')
       .col-lg-7(data-aos="fade-left")
@@ -60,7 +60,7 @@
 
     .subt.mb-4(data-aos="fade-right")
       img(src='@/assets/curso/temas/t1/subt.svg', alt='')
-      h3.mb-0.ps-3.p-md-3.ps-lg-4.pe-lg-5 Validación mediante #[em Visual Basic for Applications] (VBA)
+      h3.mb-0.ps-3.p-md-2.ps-lg-4.pe-lg-5 Validación mediante #[em Visual Basic for Applications] (VBA)
 
     .row.justify-content-center.align-items-center.mb-4      
       .col-lg-7(data-aos="fade-right")
@@ -76,7 +76,7 @@
 
     .subt.mb-4(data-aos="fade-right")
       img(src='@/assets/curso/temas/t1/subt.svg', alt='')
-      h3.mb-0.ps-3.p-md-3.ps-lg-4.pe-lg-5 Restricción dinámica de la Interfaz de Usuario (#[em UI])
+      h3.mb-0.ps-3.p-md-2.ps-lg-4.pe-lg-5 Restricción dinámica de la Interfaz de Usuario (#[em UI])
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-5.col-md-10.mb-3.mb-lg-0(data-aos="fade-right")
