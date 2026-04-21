@@ -20,7 +20,7 @@
           .col-lg-auto.d-none.d-lg-block
             img(src='@/assets/curso/temas/t4/3.svg', alt='')
           .col-lg-10
-            p.mb-0 El primer paso procedimental consiste en diseñar una tabla en el #[em Backend] denominada #[b tblUsuarios]. Esta tabla no debe ser accesible desde los menús de navegación convencionales. Debe contener campos esenciales como: #[b ID_Usuario, NombreCompleto, NombreUsuario] (#[em username]), #[b Contraseña] (idealmente encriptada mediante una función #[em hash] en VBA, evitando el almacenamiento en texto plano) y un campo clave denominado #[b ID_Rol].
+            p.mb-0 El primer paso procedimental consiste en diseñar una tabla en el #[em Back end] denominada #[b tblUsuarios]. Esta tabla no debe ser accesible desde los menús de navegación convencionales. Debe contener campos esenciales como: #[b ID_Usuario, NombreCompleto, NombreUsuario] (#[em username]), #[b Contraseña] (idealmente encriptada mediante una función #[em hash] en VBA, evitando el almacenamiento en texto plano) y un campo clave denominado #[b ID_Rol].
         p De forma paralela, se debe crear la tabla #[b tblRoles] (por ejemplo: 1 = Administrador, 2 = Digitador, 3 = Lector), la cual se relaciona directamente con la tabla de usuarios, permitiendo la gestión estructurada de los niveles de acceso dentro del sistema.
       .col-lg-5.col-md-10.mb-3.mb-lg-0(data-aos="fade-left")
         img(src='@/assets/curso/temas/t4/2.png', alt='')

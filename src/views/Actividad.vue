@@ -58,7 +58,7 @@ export default {
           mensaje_correcto:
             'Se evidencia un adecuado dominio de los conceptos relacionados con que la hinchazón del archivo ocurre por la acumulación de espacios vacíos y fragmentación interna.',
           mensaje_incorrecto:
-            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con el fenómeno de <em>bloating</em> y la fragmentación en Access.',
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con el fenómeno de bloating y la fragmentación en Access.',
         },
         {
           id: 2,
@@ -269,7 +269,7 @@ export default {
         {
           id: 8,
           texto:
-            'En una arquitectura dividida de Access, ¿qué contiene el archivo <em>backend</em>?',
+            'En una arquitectura dividida de Access, ¿qué contiene el archivo <em>back end</em>?',
           imagen: require('@/assets/actividad/imagen8.png'),
           barajarRespuestas: true,
           opciones: [
@@ -297,12 +297,12 @@ export default {
           mensaje_correcto:
             'Se evidencia un adecuado dominio de los conceptos relacionados con la separación entre almacenamiento de datos e interfaz de usuario.',
           mensaje_incorrecto:
-            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la arquitectura <em>frontend</em> y <em>backend</em>.',
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la arquitectura front end y back end.',
         },
         {
           id: 9,
           texto:
-            '¿Qué objetos se alojan principalmente en el archivo <em>frontend</em> de una base de datos dividida?',
+            '¿Qué objetos se alojan principalmente en el archivo <em>front end</em> de una base de datos dividida?',
           imagen: require('@/assets/actividad/imagen9.png'),
           barajarRespuestas: true,
           opciones: [
@@ -329,7 +329,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con el papel del <em>frontend</em> como interfaz de trabajo del usuario.',
+            'Se evidencia un adecuado dominio de los conceptos relacionados con el papel del front end como interfaz de trabajo del usuario.',
           mensaje_incorrecto:
             'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con el diseño e implementación de macros.',
         },
@@ -365,7 +365,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con la compilación del <em>frontend</em> para proteger su estructura interna.',
+            'Se evidencia un adecuado dominio de los conceptos relacionados con la compilación del <em>front end</em> para proteger su estructura interna.',
           mensaje_incorrecto:
             'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con el archivo ejecutable .accde.',
         },
@@ -540,7 +540,7 @@ export default {
           mensaje_correcto:
             'Se evidencia un adecuado dominio de los conceptos relacionados con el papel del formulario de autenticación como puerta de entrada al sistema.',
           mensaje_incorrecto:
-            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con el diseño del formulario de <em>login</em>.',
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con el diseño del formulario de login.',
         },
         {
           id: 16,
@@ -574,7 +574,7 @@ export default {
           mensaje_correcto:
             'Se evidencia un adecuado dominio de los conceptos relacionados con la validación de credenciales mediante programación en VBA.',
           mensaje_incorrecto:
-            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la validación de usuarios en el <em>login</em>.',
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la validación de usuarios en el login.',
         },
         {
           id: 17,
@@ -678,7 +678,7 @@ export default {
           mensaje_correcto:
             'Se evidencia un adecuado dominio de los conceptos relacionados con el blindaje de la interfaz frente a accesos no autorizados.',
           mensaje_incorrecto:
-            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con el panel de navegación y la <em>Bypass Key</em>.',
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con el panel de navegación y la Bypass Key.',
         },
         {
           id: 20,
@@ -702,7 +702,7 @@ export default {
             {
               id: 'c',
               texto:
-                'Aplicar <em>backups</em>, cifrado, división <em>frontend</em>/<em>backend</em> y control de roles.',
+                'Aplicar <em>backups</em>, cifrado, división <em>front end</em>/<em>back end</em> y control de roles.',
               esCorrecta: true,
             },
             {

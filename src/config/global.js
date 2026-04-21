@@ -121,7 +121,7 @@ export default {
         'Versión compilada de una base de datos de Access donde el código fuente y el diseño de formularios/informes están bloqueados, protegiendo la propiedad intelectual y evitando alteraciones accidentales.',
     },
     {
-      termino: '<em>Backend</em> (base de datos final)',
+      termino: '<em>Back end</em> (base de datos final)',
       significado:
         'En una arquitectura dividida, es el archivo que aloja exclusivamente las tablas con los datos crudos, generalmente resguardado en un servidor o carpeta de red segura.',
     },
@@ -161,9 +161,9 @@ export default {
         'Desorganización interna de los datos y los índices dentro del archivo físico, lo cual provoca lentitud en la ejecución de consultas y en la generación de informes.',
     },
     {
-      termino: '<em>Frontend</em> (base de datos frontal)',
+      termino: '<em>Front end</em> (base de datos frontal)',
       significado:
-        'Archivo que contiene la interfaz de usuario (formularios, informes, consultas y código de programación) y que se conecta de manera remota a las tablas ubicadas en el <em>Backend</em>.',
+        'Archivo que contiene la interfaz de usuario (formularios, informes, consultas y código de programación) y que se conecta de manera remota a las tablas ubicadas en el <em>Back end</em>.',
     },
     {
       termino: 'Llave principal (<em>primary key</em>)',
@@ -198,7 +198,7 @@ export default {
     {
       termino: 'Sistema de Gestión de Bases de Datos Relacionales (RDBMS)',
       significado:
-        '<em>Software</em> que permite crear, administrar y consultar bases de datos basadas en el modelo relacional (como Microsoft Access), organizando los datos en tablas interconectadas.',
+        '<em>software</em> que permite crear, administrar y consultar bases de datos basadas en el modelo relacional (como Microsoft Access), organizando los datos en tablas interconectadas.',
     },
     {
       termino: 'Tabla de usuarios (tblUsuarios)',
@@ -270,7 +270,7 @@ export default {
         {
           nombre: 'Claudia Johanna Gómez Pérez',
           cargo: 'Responsable del ecosistema',
-          centro: 'Dirección General',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
           nombre: 'Edison Eduardo Mantilla Cuadros',
@@ -308,7 +308,7 @@ export default {
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: '',
+          nombre: 'Maria Alejandra Vera Briceño',
           cargo: 'Animadora y productora audiovisual',
           centro: 'Centro Agroturístico - Regional Santander',
         },
@@ -318,12 +318,12 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: '',
+          nombre: 'Yineth Ibette Gonzalez Quintero',
           cargo: 'Validadora y vinculadora de recursos educativos digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: '',
+          nombre: 'Sandra Liliana Cristancho Cruz',
           cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro Agroturístico - Regional Santander',
         },

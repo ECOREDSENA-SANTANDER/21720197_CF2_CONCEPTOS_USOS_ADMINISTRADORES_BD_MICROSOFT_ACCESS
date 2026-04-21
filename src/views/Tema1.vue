@@ -92,6 +92,7 @@
           .col-lg-7.col-11
             img(src='@/assets/curso/temas/t1/slider1-4.png', alt='')
 
+    p Este proceso de ejecución demuestra que el mantenimiento es una disciplina que combina la destreza técnica con el pensamiento preventivo, garantizando así la prolongación de la vida útil del sistema y la confiabilidad de los datos que alberga. 
 
 
   </template>

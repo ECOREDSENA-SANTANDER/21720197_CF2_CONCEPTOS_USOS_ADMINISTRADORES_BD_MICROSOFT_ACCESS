@@ -82,7 +82,7 @@
 
     .subt2.pb-2.mb-4(data-aos="fade-right")
       i.fas.fa-circle
-      h4.mb-0 Arquitectura de división de bases de datos (#[em Frontend] y #[em Backend])
+      h4.mb-0 Arquitectura de división de bases de datos (#[em Front end] y #[em Back end])
 
     p La segunda técnica de seguridad se enfoca en la arquitectura. Una base de datos madura nunca debe operar en un solo archivo si varios usuarios van a interactuar con ella. El proceso consiste en utilizar el "Asistente para dividir bases de datos" de Access. Esta herramienta fragmenta el archivo original en dos componentes distintos:
 
@@ -90,21 +90,19 @@
       .col-lg-6.col-md-6.mb-3.mb-md-0(data-aos="fade-right")
         img(src='@/assets/curso/temas/t2/tarj1-1.png', alt='')
         .bg-color-acento-contenido.text-white.p-4
-          h4 El #[em Backend] (base de datos #[em back - end]): 
-          p.mb-0.mb-md-4.mb-lg-0 un archivo que contendrá única y exclusivamente las tablas con los datos crudos. Este archivo se aloja en una carpeta de red segura, oculta y restringida.
+          h4 El #[em Back end] (base de datos #[em back - end]): 
+          p.mb-0.mb-md-4.mb-lg-0 Un archivo que contendrá única y exclusivamente las tablas con los datos crudos. Este archivo se aloja en una carpeta de red segura, oculta y restringida.
       .col-lg-6.col-md-6.mb-3.mb-md-0(data-aos="fade-left")
         img(src='@/assets/curso/temas/t2/tarj1-2.png', alt='')
         .bg-color-acento-contenido.text-white.p-4
-          h4 El #[em Frontend] (base de datos #[em front - end]):
-          p.mb-0 un archivo que contiene las consultas, formularios, informes y módulos de programación (macros y VBA). Este archivo no tiene datos propios, sino que se vincula al #[em Backend].
+          h4 El #[em Front end] (base de datos #[em front - end]):
+          p.mb-0 Un archivo que contiene las consultas, formularios, informes y módulos de programación (macros y VBA). Este archivo no tiene datos propios, sino que se vincula al #[em Back end].
 
-    p.mb-5 Al aplicar esta división, el administrador protege la integridad de los datos. Si un usuario comete un error fatal en su estación de trabajo y corrompe su formulario (#[em Frontend]), los datos almacenados en el servidor (#[em Backend]) permanecen intactos y a salvo.
+    p.mb-5 Al aplicar esta división, el administrador protege la integridad de los datos. Si un usuario comete un error fatal en su estación de trabajo y corrompe su formulario (#[em Front end]), los datos almacenados en el servidor (#[em Back end]) permanecen intactos y a salvo.
 
     .subt2.pb-2.mb-4(data-aos="fade-right")
       i.fas.fa-circle
       h4.mb-0 Compilación del archivo a formato ejecutable (.accde)
-
-    p La segunda técnica de seguridad se enfoca en la arquitectura. Una base de datos madura nunca debe operar en un solo archivo si varios usuarios van a interactuar con ella. El proceso consiste en utilizar el "Asistente para dividir bases de datos" de Access. Esta herramienta fragmenta el archivo original en dos componentes distintos:
 
     .bg2.mb-5(data-aos="fade")
       .row.justify-content-center.align-items-center
@@ -116,8 +114,8 @@
               .col-lg-auto.col-md-2.col-3
                 img(src='@/assets/curso/temas/t2/10.svg', alt='')
               .col-lg-10.col-md-10.col-9
-                p.mb-0 Incluso con un archivo dividido y protegido con contraseña, un usuario malicioso con conocimientos de Access podría abrir el #[em Frontend], ingresar a la "Vista Diseño" y alterar las consultas o modificar el código de programación (#[em Visual Basic for Applications] (VBA)) para saltarse las restricciones lógicas.
-            p Para evitar esto, el administrador debe compilar el archivo #[em Frontend]. Mediante la opción "Guardar y publicar", se transforma el archivo editable (con extensión .accdb) en un archivo ejecutable cerrado (con extensión .accde). Al realizar este proceso, el motor de Access compila todo el código fuente y bloquea permanentemente la Vista Diseño de formularios e informes. El usuario final solo podrá interactuar con las interfaces gráficas habilitadas, sin posibilidad alguna de alterar la estructura interna del #[em software].
+                p.mb-0 Incluso con un archivo dividido y protegido con contraseña, un usuario malicioso con conocimientos de Access podría abrir el #[em Front end], ingresar a la "Vista Diseño" y alterar las consultas o modificar el código de programación (#[em Visual Basic for Applications] (VBA)) para saltarse las restricciones lógicas.
+            p Para evitar esto, el administrador debe compilar el archivo #[em Front end]. Mediante la opción "Guardar y publicar", se transforma el archivo editable (con extensión .accdb) en un archivo ejecutable cerrado (con extensión .accde). Al realizar este proceso, el motor de Access compila todo el código fuente y bloquea permanentemente la Vista Diseño de formularios e informes. El usuario final solo podrá interactuar con las interfaces gráficas habilitadas, sin posibilidad alguna de alterar la estructura interna del #[em software].
 
     .subt2.pb-2.mb-4(data-aos="fade-right")
       i.fas.fa-circle

@@ -36,7 +36,7 @@
 
     img.mb-4(src='@/assets/curso/temas/t3/4.png', alt='')
     
-    p.mb-5 A nivel técnico, es imperativo que el administrador comprenda una transición histórica en el #[em software]: mientras que las versiones antiguas de Access (formato .mdb) poseían un sistema de seguridad a nivel de usuario (#[em Workgroup Security]), los formatos modernos (desde .accdb) eliminaron esta característica nativa. Por consiguiente, el administrador actual debe construir esta arquitectura de permisos de manera lógica, utilizando programación en #[em Visual Basic for Applications] (VBA), tablas de perfiles ocultas o, en escenarios avanzados, migrando las tablas (#[em Backend]) a un servidor robusto como Microsoft SQL Server, heredando así la seguridad del servidor.
+    p.mb-5 A nivel técnico, es imperativo que el administrador comprenda una transición histórica en el #[em software]: mientras que las versiones antiguas de Access (formato .mdb) poseían un sistema de seguridad a nivel de usuario (#[em Workgroup Security]), los formatos modernos (desde .accdb) eliminaron esta característica nativa. Por consiguiente, el administrador actual debe construir esta arquitectura de permisos de manera lógica, utilizando programación en #[em Visual Basic for Applications] (VBA), tablas de perfiles ocultas o, en escenarios avanzados, migrando las tablas (#[em Back end]) a un servidor robusto como Microsoft SQL Server, heredando así la seguridad del servidor.
 
     .mb-5(data-aos="fade")
       .titulo-sexto.color-acento-contenido.mb-3
@@ -73,7 +73,7 @@
             .col-11
               p.mb-0 Tiene acceso total. Visualiza paneles de control estadísticos, puede dar de baja libros dañados, purgar registros antiguos y crear nuevos usuarios bibliotecarios.
 
-    p Este ejemplo evidencia cómo un mismo archivo físico (#[em Frontend]) muta su comportamiento y restringe sus herramientas de forma inteligente dependiendo de quién sea la persona que se encuentra frente al teclado.
+    p Este ejemplo evidencia cómo un mismo archivo físico (#[em Front end]) muta su comportamiento y restringe sus herramientas de forma inteligente dependiendo de quién sea la persona que se encuentra frente al teclado.
 
 
 </template>
