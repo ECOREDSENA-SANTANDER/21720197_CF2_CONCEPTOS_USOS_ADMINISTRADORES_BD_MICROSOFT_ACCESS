@@ -139,7 +139,7 @@
         .bg-white.tarjeta.p-4
           TarjetaAudio.color-primario(
             texto="Ocultamiento de la interfaz de navegación y anulación de teclas de omisión (<em>bypass key</em>)"
-            :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+            :audio="require('@/assets/componentes/audios/podcast.mp3')"
             @audio-hover="mostrarIndicadorTarjetaAudio = false"
           )
             .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
