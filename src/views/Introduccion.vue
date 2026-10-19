@@ -22,7 +22,7 @@
         img(src='@/assets/curso/temas/intro/1.png', alt='')
 
     .tarjeta.bg1.p-4.mb-5
-      p.mb-0 La relevancia de este curso en el proceso formativo radica en su capacidad para cerrar la brecha entre el conocimiento operativo básico y la administración avanzada. Mientras un usuario estándar de Access se limita al registro de información o a la generación de reportes, el aprendiz que finaliza este proceso asume el rol de administrador, capaz de diseñar, proteger y optimizar sistemas de información. Esta transición, de usuario a gestor del sistema, constituye el principal valor agregado de la formación complementaria del SENA, al fortalecer el pensamiento lógico, el diseño de entornos seguros y la toma de decisiones tecnológicas fundamentadas en evidencia (Ramírez & Vargas, 2022).
+      p.mb-0 La relevancia de este curso en el proceso formativo radica en su capacidad para cerrar la brecha entre el conocimiento operativo básico y la administración avanzada. Mientras un usuario estándar de Access se limita al registro de información o a la generación de reportes, el aprendiz que finaliza este proceso asume el rol de administrador, capaz de diseñar, proteger y optimizar sistemas de información. Esta transición, de usuario a gestor del sistema, constituye el principal valor agregado de la formación complementaria del SENA, al fortalecer el pensamiento lógico, el diseño de entornos seguros y la toma de decisiones tecnológicas fundamentadas en evidencia (Ramírez y Vargas, 2022).
 
     figure
       .video

@@ -68,15 +68,15 @@
           .col-lg-auto.d-none.d-lg-block
             img(src='@/assets/curso/temas/t4/6.svg', alt='')
           .col-lg-10
-            p.mb-0 El núcleo de la seguridad lógica reside en el botón "Ingresar" del formulario de #[em Login]. El administrador debe programar un evento Al hacer clic que ejecute una consulta de validación. El código #[em VBA] captura los datos ingresados y busca una coincidencia exacta en la #[b tblUsuarios]. Si las credenciales son incorrectas, se emite una alerta y se deniega el acceso, llevando un contador de intentos fallidos.
-        p Si las credenciales son válidas, el proceso no termina ahí; esta es la fase crítica. El código debe capturar en la memoria temporal del sistema (utilizando variables globales o campos ocultos en un formulario maestro) el ID_Rol del usuario que acaba de ingresar. Esta variable (ejemplo: #[b TempVars!RolUsuario = 2]) será el faro que guiará el comportamiento del resto de la base de datos (Ramírez & Vargas, 2022).
+            p.mb-0 El núcleo de la seguridad lógica reside en el botón "Ingresar" del formulario de #[em Login]. El administrador debe programar un evento Al hacer clic que ejecute una consulta de validación. El código VBA captura los datos ingresados y busca una coincidencia exacta en la #[b tblUsuarios]. Si las credenciales son incorrectas, se emite una alerta y se deniega el acceso, llevando un contador de intentos fallidos.
+        p Si las credenciales son válidas, el proceso no termina ahí; esta es la fase crítica. El código debe capturar en la memoria temporal del sistema (utilizando variables globales o campos ocultos en un formulario maestro) el ID_Rol del usuario que acaba de ingresar. Esta variable (ejemplo: #[b TempVars!RolUsuario = 2]) será el faro que guiará el comportamiento del resto de la base de datos (Ramírez y Vargas, 2022).
       .col-lg-5.col-md-10.mb-3.mb-lg-0(data-aos="fade-left")
         img(src='@/assets/curso/temas/t4/7.png', alt='')
 
 
     .subt.mb-4(data-aos="fade-right")
       img(src='@/assets/curso/temas/t1/subt.svg', alt='')
-      h3.mb-0.ps-3.p-md-2.ps-lg-4.pe-lg-5 Restricción dinámica de la Interfaz de Usuario (#[em UI])
+      h3.mb-0.ps-3.p-md-2.ps-lg-4.pe-lg-5 Restricción dinámica de la Interfaz de Usuario (UI)
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-5.col-md-10.mb-3.mb-lg-0(data-aos="fade-right")

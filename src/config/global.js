@@ -87,7 +87,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/dist.pdf',
+        download: 'downloads/21720197_CF02_CFA.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -171,7 +171,7 @@ export default {
         'Campo o conjunto de campos que identifica de manera única cada registro dentro de una tabla, esencial para el mantenimiento de la integridad relacional.',
     },
     {
-      termino: 'Macro autoexec',
+      termino: 'Macro AutoExec',
       significado:
         'Tipo de macro especial en Access que se ejecuta automáticamente al abrir la base de datos, frecuentemente utilizada por los administradores para ocultar barras de herramientas o forzar la apertura del formulario de <em>login</em>.',
     },
@@ -214,27 +214,27 @@ export default {
   referencias: [
     {
       referencia:
-        'Castillo, J., & Mendoza, L. (2021). Ciberseguridad en entornos educativos: protección de datos desde la gestión administrativa. Editorial TecnoSaberes.',
+        'Castillo, J., y Mendoza, L. (2021). Ciberseguridad en entornos educativos: protección de datos desde la gestión administrativa. TecnoSaberes.',
       link: '',
     },
     {
       referencia:
-        'Fernández, A., & Romero, C. (2023). Criptografía aplicada a bases de datos de escritorio: del archivo local a la nube. Ediciones Informáticas Avanzadas.',
+        'Fernández, A., y Romero, C. (2023). Criptografía aplicada a bases de datos de escritorio: del archivo local a la nube. Ediciones Informáticas Avanzadas.',
       link: '',
     },
     {
       referencia:
-        'Gómez, R., & Martínez, S. (2021). Alfabetización digital avanzada en la educación técnica superior. Revista Iberoamericana de Pedagogía y Tecnología, 14(2), 45-60.',
+        'Gómez, R., y Martínez, S. (2021). Alfabetización digital avanzada en la educación técnica superior. Revista Iberoamericana de Pedagogía y Tecnología, 14(2), 45-60.',
       link: '',
     },
     {
       referencia:
-        'Hernández, P., & Silva, M. (2023). Mantenimiento y optimización de sistemas RDBMS en pequeñas y medianas empresas. Journal of Applied Database Management, 8(1), 112-128.',
+        'Hernández, P., y Silva, M. (2023). Mantenimiento y optimización de sistemas RDBMS en pequeñas y medianas empresas. Journal of Applied Database Management, 8(1), 112-128.',
       link: '',
     },
     {
       referencia:
-        'López, E., & Castro, F. (2022). Gestión de la información en Microsoft Access: arquitectura y buenas prácticas. Editorial Sistemas y Redes.',
+        'López, E., y Castro, F. (2022). Gestión de la información en Microsoft Access: arquitectura y buenas prácticas. Sistemas y Redes.',
       link: '',
     },
     {
@@ -249,7 +249,7 @@ export default {
     },
     {
       referencia:
-        'Ramírez, C., & Vargas, D. (2022). El rol del administrador de bases de datos: de la operatividad a la estrategia gerencial. Revista Colombiana de Computación, 20(3), 77-94.',
+        'Ramírez, C., y Vargas, D. (2022). El rol del administrador de bases de datos: de la operatividad a la estrategia gerencial. Revista Colombiana de Computación, 20(3), 77-94.',
       link: '',
     },
     {
@@ -269,7 +269,8 @@ export default {
       autores: [
         {
           nombre: 'Claudia Johanna Gómez Pérez',
-          cargo: 'Responsable del ecosistema',
+          cargo:
+            'Profesional G06. Responsable Ecosistema Virtual de Recursos Educativos Digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
@@ -304,7 +305,7 @@ export default {
         },
         {
           nombre: 'Andrea Paola Botello De la Rosa',
-          cargo: 'Desarrollador <em>full stack</em>',
+          cargo: 'Desarrolladora <em>full stack</em>',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
@@ -323,7 +324,7 @@ export default {
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Sandra Liliana Cristancho Cruz',
+          nombre: 'Laura Paola Gelvez Manosalva',
           cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro Agroturístico - Regional Santander',
         },

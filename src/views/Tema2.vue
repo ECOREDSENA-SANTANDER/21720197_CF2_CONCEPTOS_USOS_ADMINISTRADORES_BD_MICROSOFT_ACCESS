@@ -30,7 +30,7 @@
       .col-lg-5.d-none.d-lg-block(data-aos="fade-left")
         img(src='@/assets/curso/temas/t2/2.png', alt='')
 
-    p.mb-4 Desde una fundamentación técnica, la seguridad en Access se materializa a través de tres mecanismos principales: el cifrado de extremo a extremo, la compilación de código fuente y la arquitectura de división de bases de datos. El cifrado moderno en Access utiliza algoritmos de bloque (como el AES de 128 o 256 bits), los cuales transforman los datos legibles en texto cifrado e incomprensible, exigiendo una clave criptográfica (contraseña) para su desencriptación en tiempo real (Fernández & Romero, 2023).
+    p.mb-4 Desde una fundamentación técnica, la seguridad en Access se materializa a través de tres mecanismos principales: el cifrado de extremo a extremo, la compilación de código fuente y la arquitectura de división de bases de datos. El cifrado moderno en Access utiliza algoritmos de bloque (como el AES de 128 o 256 bits), los cuales transforman los datos legibles en texto cifrado e incomprensible, exigiendo una clave criptográfica (contraseña) para su desencriptación en tiempo real (Fernández y Romero, 2023).
 
     .row.justify-content-center.mb-5
       .col-lg-5.col-md-10.mb-3.mb-lg-0(data-aos="fade-right")
@@ -62,7 +62,7 @@
       img(src='@/assets/curso/temas/t1/subt.svg', alt='')
       h3.mb-0.ps-3.p-md-2.ps-lg-4.pe-lg-5 Aplicar aspectos de seguridad y accesibilidad de los datos
 
-    p.mb-5 La transición de la teoría a la práctica requiere que el administrador ejecute un procedimiento técnico escalonado. Aplicar la seguridad en Microsoft Access no es un evento aislado, sino una metodología compuesta por barreras sucesivas. A continuación, se detalla el proceso estructurado que debe dominar el estudiante:
+    p.mb-5 La transición de la teoría a la práctica requiere que el administrador ejecute un procedimiento técnico escalonado. Aplicar la seguridad en Microsoft Access no es un evento aislado, sino una metodología compuesta por barreras sucesivas. A continuación, se detalla el proceso estructurado que debe dominar el aprendiz:
 
     .subt2.pb-2.mb-4(data-aos="fade-right")
       i.fas.fa-circle
@@ -78,7 +78,7 @@
           .col-lg-7
             .bg7.p-4.py-3.h-100.d-flex.flex-column.justify-content-center
               p.mb-0 El primer y más fundamental nivel de seguridad es evitar la apertura no autorizada del archivo físico. Para lograrlo, el administrador debe abrir la base de datos de una manera específica. No basta con hacer doble clic sobre el archivo. El procedimiento exige abrir el programa Microsoft Access primero, dirigirse a la opción "Abrir", buscar el archivo y, en el botón de apertura, desplegar la lista para seleccionar estrictamente "Abrir en modo exclusivo". Este paso le indica al motor de la base de datos que nadie más en la red podrá conectarse en ese instante, previniendo conflictos de escritura.
-        p Una vez en modo exclusivo, se navega a la pestaña de "Información" y se ejecuta el comando "Cifrar con contraseña". Aquí, el administrador debe aplicar una clave robusta (combinando caracteres alfanuméricos y símbolos). A partir de este momento, el contenido del archivo se vuelve ilegible a nivel de bits (código binario) para editores de texto o programas de recuperación no autorizados, garantizando que un robo físico del archivo (por ejemplo, en una memoria USB perdida) no resulte en una fuga de datos (López & Castro, 2022).
+        p Una vez en modo exclusivo, se navega a la pestaña de "Información" y se ejecuta el comando "Cifrar con contraseña". Aquí, el administrador debe aplicar una clave robusta (combinando caracteres alfanuméricos y símbolos). A partir de este momento, el contenido del archivo se vuelve ilegible a nivel de bits (código binario) para editores de texto o programas de recuperación no autorizados, garantizando que un robo físico del archivo (por ejemplo, en una memoria USB perdida) no resulte en una fuga de datos (López y Castro, 2022).
 
     .subt2.pb-2.mb-4(data-aos="fade-right")
       i.fas.fa-circle
@@ -114,7 +114,7 @@
               .col-lg-auto.col-md-2.col-3
                 img(src='@/assets/curso/temas/t2/10.svg', alt='')
               .col-lg-10.col-md-10.col-9
-                p.mb-0 Incluso con un archivo dividido y protegido con contraseña, un usuario malicioso con conocimientos de Access podría abrir el #[em Front end], ingresar a la "Vista Diseño" y alterar las consultas o modificar el código de programación (#[em Visual Basic for Applications] (VBA)) para saltarse las restricciones lógicas.
+                p.mb-0 Incluso con un archivo dividido y protegido con contraseña, un usuario malicioso con conocimientos de Access podría abrir el #[em Front end], ingresar a la "Vista Diseño" y alterar las consultas o modificar el código de programación (#[em Visual Basic for Applications], VBA) para saltarse las restricciones lógicas.
             p Para evitar esto, el administrador debe compilar el archivo #[em Front end]. Mediante la opción "Guardar y publicar", se transforma el archivo editable (con extensión .accdb) en un archivo ejecutable cerrado (con extensión .accde). Al realizar este proceso, el motor de Access compila todo el código fuente y bloquea permanentemente la Vista Diseño de formularios e informes. El usuario final solo podrá interactuar con las interfaces gráficas habilitadas, sin posibilidad alguna de alterar la estructura interna del #[em software].
 
     .subt2.pb-2.mb-4(data-aos="fade-right")
@@ -132,6 +132,8 @@
             p.mb-0 Este entramado de procesos demuestra que la aplicación de aspectos de seguridad y accesibilidad requiere un pensamiento estratégico. El administrador de bases de datos no solo reacciona a los problemas, sino que anticipa los vectores de ataque y diseña una estructura digital resiliente y confiable, lista para operar en entornos reales de alta exigencia académica y corporativa.
       .col-lg-4.d-none.d-lg-block(data-aos="fade-left")
         img(src='@/assets/curso/temas/t2/12.png', alt='')
+
+    p.mb-4 Para complementar toda esta información, se invita al aprendiz a visitar el siguiente pódcast.
 
     .bg-color-primario     
       img(src='@/assets/curso/temas/t2/podcast.svg', alt='')

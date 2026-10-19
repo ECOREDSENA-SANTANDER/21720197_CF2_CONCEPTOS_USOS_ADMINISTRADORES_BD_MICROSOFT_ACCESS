@@ -41,7 +41,7 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8(data-aos="fade-right")
-        p Para aterrizar este concepto, imagínese una base de datos de Access diseñada para gestionar la matrícula, calificaciones y asistencia de un centro de formación técnica. Al inicio del año lectivo, el archivo pesa 15 Megabytes (MB) y funciona con fluidez. Sin embargo, a medida que los instructores suben calificaciones diarias, corrigen errores, eliminan registros duplicados de aprendices y actualizan horarios, la base de datos comienza a registrar lentitud al abrir los reportes finales. Para el tercer trimestre, el archivo pesa 150 MB y muestra errores ocasionales de lectura.
+        p Para aterrizar este concepto, imagínese una base de datos de Access diseñada para gestionar la matrícula, calificaciones y asistencia de un centro de formación técnica. Al inicio del año lectivo, el archivo pesa 15 megabytes (MB) y funciona con fluidez. Sin embargo, a medida que los instructores suben calificaciones diarias, corrigen errores, eliminan registros duplicados de aprendices y actualizan horarios, la base de datos comienza a registrar lentitud al abrir los reportes finales. Para el tercer trimestre, el archivo pesa 150 MB y muestra errores ocasionales de lectura.
         .row.justify-content-center.align-items-center.mb-4
           .col-lg-auto.col-md-2.d-none.d-md-block
             img(src='@/assets/curso/temas/t1/4.svg', alt='')
@@ -68,7 +68,7 @@
         .row.justify-content-center.align-items-center.mb-4
           .col-lg-3.col-11
             h4 b) Aseguramiento mediante copias de respaldo (#[em backups]):
-            p Es una regla de oro e inquebrantable en la administración de bases de datos: jamás se ejecuta un procedimiento de reparación sin antes haber generado una copia de seguridad física del archivo .accdb (formato de base de datos de Access). Si el proceso de compactación se interrumpe por un corte de energía, el archivo original puede corromperse de manera irreversible (Hernández & Silva, 2023).
+            p Es una regla de oro e inquebrantable en la administración de bases de datos: jamás se ejecuta un procedimiento de reparación sin antes haber generado una copia de seguridad física del archivo .accdb (formato de base de datos de Access). Si el proceso de compactación se interrumpe por un corte de energía, el archivo original puede corromperse de manera irreversible (Hernández y Silva, 2023).
           .col-lg-7.col-11
             img(src='@/assets/curso/temas/t1/slider1-2.png', alt='')
         .row.justify-content-center.mb-4

@@ -30,7 +30,7 @@
             img(src='@/assets/curso/temas/t3/3.svg', alt='')
           .col-lg-10
             p.mb-0 La administración de niveles de acceso se define como la estructuración e implementación de reglas lógicas que determinan qué puede ver, modificar, crear o eliminar un usuario específico dentro de una base de datos.
-        p Este concepto se sustenta en el modelo de Control de Acceso Basado en Roles (RBAC, por sus siglas en inglés), el cual desvincula los permisos de las identidades individuales y los asocia a perfiles de cargo o funciones específicas dentro de la organización (Castillo & Mendoza, 2021).
+        p Este concepto se sustenta en el modelo de Control de Acceso Basado en Roles (RBAC, por sus siglas en inglés), el cual desvincula los permisos de las identidades individuales y los asocia a perfiles de cargo o funciones específicas dentro de la organización (Castillo y Mendoza, 2021).
     
     p.mb-5 Para comprender esta dinámica, resulta pertinente utilizar la analogía de las llaves dentro de un centro educativo físico. El rector o administrador general posee una llave maestra que abre todas las oficinas, archivos y aulas en cualquier momento; el docente cuenta con una llave que únicamente abre la puerta de su salón de clases asignado; y el estudiante, por su parte, no posee llaves, sino que transita libremente por los pasillos y bibliotecas durante el horario permitido, consumiendo información, pero sin la capacidad de alterar la infraestructura del edificio. En Microsoft Access, estas "llaves" se traducen en permisos de Lectura, Escritura, Edición, Eliminación y Diseño.
 
