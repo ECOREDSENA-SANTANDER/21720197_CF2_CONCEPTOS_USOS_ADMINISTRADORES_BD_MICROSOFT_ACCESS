@@ -25,8 +25,8 @@
       .col-lg-5.col-md-10.mb-3.mb-lg-0(data-aos="fade-right")
         img(src='@/assets/curso/temas/t3/2.png', alt='')
       .col-lg-7(data-aos="fade-left")
-        .row.justify-content-center.align-items-center.mb-3.mb-md-4
-          .col-lg-auto.d-none.d-lg-block
+        .row.justify-content-center.align-items-center.mb-3
+          .col-lg-2.d-none.d-lg-block
             img(src='@/assets/curso/temas/t3/3.svg', alt='')
           .col-lg-10
             p.mb-0 La administración de niveles de acceso se define como la estructuración e implementación de reglas lógicas que determinan qué puede ver, modificar, crear o eliminar un usuario específico dentro de una base de datos.
@@ -36,7 +36,7 @@
 
     img.mb-4(src='@/assets/curso/temas/t3/4.png', alt='')
     
-    p.mb-5 A nivel técnico, es imperativo que el administrador comprenda una transición histórica en el #[em software]: mientras que las versiones antiguas de Access (formato .mdb) poseían un sistema de seguridad a nivel de usuario (#[em Workgroup Security]), los formatos modernos (desde .accdb) eliminaron esta característica nativa. Por consiguiente, el administrador actual debe construir esta arquitectura de permisos de manera lógica, utilizando programación en #[em Visual Basic for Applications] (VBA), tablas de perfiles ocultas o, en escenarios avanzados, migrando las tablas (#[em Back end]) a un servidor robusto como Microsoft SQL Server, heredando así la seguridad del servidor.
+    p.mb-5 A nivel técnico, es imperativo que el administrador comprenda una transición histórica en el #[em software]: mientras que las versiones antiguas de Access (formato .mdb) poseían un sistema de seguridad a nivel de usuario (#[em Workgroup Security]), los formatos modernos (desde .accdb) eliminaron esta característica nativa. Por consiguiente, el administrador actual debe construir esta arquitectura de permisos de manera lógica, utilizando programación en #[em Visual Basic for Applications] (VBA), tablas de perfiles ocultas o, en escenarios avanzados, migrando las tablas (#[em Back - end]) a un servidor robusto como Microsoft SQL Server, heredando así la seguridad del servidor.
 
     .mb-5(data-aos="fade")
       .titulo-sexto.color-acento-contenido.mb-3
@@ -63,17 +63,17 @@
         img(src='@/assets/curso/temas/t3/6.png', alt='')
       .col-lg-8(data-aos="fade-left")
         AcordionA.tb(tipo="b" clase-tarjeta="tarjeta bg4")
-          .row(titulo="a) Rol aprendiz (nivel de lector):")
+          .row(titulo="a) Rol aprendiz (nivel de lector)")
             .col-11
               p.mb-0 Al autenticarse, el sistema le muestra únicamente un formulario de búsqueda. Puede ver los títulos y la disponibilidad, pero las casillas de texto están bloqueadas (propiedad #[em locked] en verdadero) y no existen botones de guardado ni eliminación.
-          .row(titulo="b) Rol bibliotecario (nivel de operador):")
+          .row(titulo="b) Rol bibliotecario (nivel de operador)")
             .col-11
               p.mb-0 Al ingresar con sus credenciales, la interfaz cambia. Se habilitan los botones para registrar nuevos préstamos, recibir devoluciones y registrar multas, pero no puede eliminar libros del inventario maestro.
-          .row(titulo="c) Rol coordinador académico (nivel de administrador):")
+          .row(titulo="c) Rol coordinador académico (nivel de administrador)")
             .col-11
               p.mb-0 Tiene acceso total. Visualiza paneles de control estadísticos, puede dar de baja libros dañados, purgar registros antiguos y crear nuevos usuarios bibliotecarios.
 
-    p Este ejemplo evidencia cómo un mismo archivo físico (#[em Front end]) muta su comportamiento y restringe sus herramientas de forma inteligente dependiendo de quién sea la persona que se encuentra frente al teclado.
+    p Este ejemplo evidencia cómo un mismo archivo físico (#[em Front - end]) muta su comportamiento y restringe sus herramientas de forma inteligente dependiendo de quién sea la persona que se encuentra frente al teclado.
 
 
 </template>

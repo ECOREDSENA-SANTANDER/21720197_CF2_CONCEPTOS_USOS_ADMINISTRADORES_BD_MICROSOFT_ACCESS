@@ -23,8 +23,8 @@
       .col-lg-5.col-md-10.mb-3.mb-lg-0(data-aos="fade-right")
         img(src='@/assets/curso/temas/t1/2.png', alt='')
       .col-lg-7(data-aos="fade-left")
-        .row.justify-content-center.align-items-center.mb-4
-          .col-lg-auto.d-none.d-lg-block
+        .row.justify-content-center.align-items-center.mb-3
+          .col-lg-2.d-none.d-lg-block
             img(src='@/assets/curso/temas/t1/3.svg', alt='')
           .col-lg-10
             p.mb-0 El mantenimiento de una base de datos en Microsoft Access se define como el conjunto sistemático de procedimientos técnicos destinados a reorganizar la estructura interna del archivo, recuperar espacio de almacenamiento desperdiciado, reparar cadenas de registros corruptos y optimizar la velocidad de ejecución de las consultas.
