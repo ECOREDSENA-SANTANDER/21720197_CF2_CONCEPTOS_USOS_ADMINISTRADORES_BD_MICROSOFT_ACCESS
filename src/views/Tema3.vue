@@ -54,7 +54,7 @@
       .col-lg-7(data-aos="fade-right")
         p Considérese el diseño de un sistema de gestión bibliotecaria para un complejo del SENA desarrollado en Microsoft Access. La base de datos contiene miles de registros sobre libros, préstamos, multas y datos personales de la comunidad educativa.
         p Si no existieran niveles de acceso, un aprendiz que ingrese al sistema para consultar la disponibilidad de un libro de matemáticas podría, accidentalmente o de forma deliberada, modificar el estado de su propia multa por retraso de "Pendiente" a "Pagada", o incluso eliminar el registro del libro.
-        p Para mitigar este riesgo, el estudiante de administración de bases de datos configura tres niveles de acceso claramente definidos:
+        p Para mitigar este riesgo, el aprendiz de administración de bases de datos configura tres niveles de acceso claramente definidos:
       .col-lg-5.d-none.d-lg-block(data-aos="fade-left")
         img(src='@/assets/curso/temas/t3/5.png', alt='')
 
